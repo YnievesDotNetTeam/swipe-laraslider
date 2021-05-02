@@ -10,13 +10,13 @@ Image slider using Laravel and SwipeJS
 
 #### Step 2:copy vendor using composer
 
-    composer require webelightdev/swipe-laraslider dev-master
+    composer require ynievesdotnetteam/swipe-laraslider dev-main
 
     Or, you may manually update require block and run `composer update`
 
     "require": {
        
-        "webelightdev/swipe-laraslider": "dev-master"
+        "ynievesdotnetteam/swipe-laraslider": "dev-main"
     }
 
     'composer update' will be required.
