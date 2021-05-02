@@ -17,13 +17,12 @@ class ImageSliderServiceProvider extends ServiceProvider
         $this->publishes([__DIR__.'/../config/slider.php' => config_path('slider.php')]);
 
         // Migration
-        $this->publishes([__DIR__.'/../database/migrations' => $this->app->databasePath().'/migrations'], 'migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
         //access Routes
-        include __DIR__.'/Routes/web.php';
+        $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
 
         // to Publish assets Folder
-
         $this->publishes([__DIR__.'/Resources/assets' => public_path('vendor/assets'),
         ]);
     }
