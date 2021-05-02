@@ -8,12 +8,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "jitendrabavliya",
-            "email": "pateljitendra3fw@gmail.com"
+            "name": "Yoinier Hernandez Nieves",
+            "email": "me@ynieves.net",
+            "role": "Maintainer"
         },
         {
-            "name": "Yoinier Hernandez Nieves",
-            "email": "me@ynieves.net"
+            "name": "jitendrabavliya",
+            "email": "pateljitendra3fw@gmail.com",
+            "role": "Original Creator"
         }
     ],
     "autoload": {
@@ -21,5 +23,15 @@
             "YnievesDotNetTeam\\SwipeLaraslider\\": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YnievesDotNetTeam\\SwipeLaraslider\\ImageSliderServiceProvider"
+            ],
+            "aliases": {
+                "Slider": "YnievesDotNetTeam\\SwipeLaraslider\\Facade\\Slider"
+            }
+        }
+    },
 }

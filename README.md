@@ -27,7 +27,6 @@ Image slider using Laravel and SwipeJS
      // ...
         YnievesDotNetTeam\SwipeLaraslider\ImageSliderServiceProvider::class,
      // ...
-
     ]
 
 #### step 4: To publish the Config, Migration, Service Provider and Facades Run
