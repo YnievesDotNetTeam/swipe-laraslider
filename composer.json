@@ -1,0 +1,25 @@
+{
+    "name": "ynievesdotnetteam/swipe-laraslider",
+    "description": "Using the Most Modern Mobile Touch Slider on Laravel",
+    "type": "library",
+    "require": {
+        "intervention/image": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jitendrabavliya",
+            "email": "pateljitendra3fw@gmail.com"
+        },
+        {
+            "name": "Yoinier Hernandez Nieves",
+            "email": "me@ynieves.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YnievesDotNetTeam\\SwipeLaraslider\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
